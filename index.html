@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container py-5  ">
+      <a class="navbar-brand " href="#">
+        <img width="64" height="38" src="./images/logo@2x.png" alt="logo">
+        <div class="textLogo">
+          <h1>weather</h1>
+          <span>tagline goes here</span>
+        </div>
+
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="navbar-toggler-icon fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item">
+            <a class="nav-link active pe-3 me-2" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 me-2" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 me-2" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 me-2" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 me-2" href="#">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- header -->
+  <section>
+
+    <div class="header ">
+
+      <div class="headerBgImd ">
+
+        <div class="container position-relative">
+          <div class="search">
+            <input  type="text" class="searchInput form-control  m-auto " placeholder="Find your Location... ">
+            <button class="btnFind btn btn-primary ">Find</button>
+          </div>
+          <div class="container-sm">
+            <div class="containerRow row">
+              <!-- frist day -->
+              <div class="headItem col-sm-12 col-lg-4  ">
+                <div class="detailsToday d-flex justify-content-between py-2 px-2">
+                  <div>...</div>
+                  <div></div>
+                </div>
+                <div class="bodyItem pt-3">
+                  <div class="container">
+                    <div class="location ">...
+
+                    </div>
+                    <div class="degree ">
+                      <div class="num ">
+                        <p>
+                         ...
+                          <sup>o</sup>
+                          C
+
+                        </p>
+                      </div>
+                      <div class="forecastImg ">
+                        <img src="./images/122.png" alt="forcast image" class="ms-2" width="90">
+
+                      </div>
+                    </div>
+
+
+
+                  </div>
+                  <div class="custom my-3">... </div>
+                  <span>
+                    <img src="./images/icon-umberella.png" alt="umbrella">
+                    20%
+                  </span>
+                  <span>
+                    <img src="./images/icon-wind.png" alt="wind">
+                    18km/h
+                  </span>
+                  <span>
+                    <img src="./images/icon-compass.png" alt="compass">
+                    East
+                  </span>
+
+
+
+
+                </div>
+              </div> 
+              <!-- second day -->
+               <div class=" col-sm-12 col-lg-4  ">
+                <div class="forecastHeader ">
+                  <div class="day py-2 px-2 ">...</div>
+                </div>
+                <div class="bodyItem2 pt-2">
+                  <div class="container">
+                    <div class="imgIcon text-center py-3">
+                      <img src="./images/113.png" alt="sun">
+
+                    </div>
+                    <div class="degree2 pt-3 ">
+                      <p>
+                       ...
+                        <sup>o</sup>
+                        C
+                      </p>
+                    </div>
+                    <div class="miniDegree2 pb-3 ">
+                      <p>
+                        ...
+                        <sup>o</sup>
+
+                      </p>
+                    </div>
+
+                    <div class="custom2 mb-3 pb-5 text-center">... </div>
+
+                  </div>
+
+
+
+                </div>
+              </div> 
+              <!-- third day -->
+              <div class=" col-sm-12 col-lg-4  ">
+                <div class="forecastHeader ">
+                  <div class="forecastTomorrow py-2 px-2 ">...</div>
+                </div>
+                <div class="bodyItem3 pt-2">
+                  <div class="container">
+                    <div class="imgIcon text-center py-3">
+                      <img src="./images/113.png" alt="sun">
+
+                    </div>
+                    <div class="degree3 pt-3 ">
+                      <p>
+                       ...
+                        <sup>o</sup>
+                        C
+                      </p>
+                    </div>
+                    <div class="miniDegree3 pb-3 ">
+                      <p>
+                        14.5
+                        <sup>o</sup>
+
+                      </p>
+                    </div>
+
+                    <div class="custom3 mb-3 pb-5 text-center">... </div>
+
+                  </div>
+
+
+
+                </div>
+              </div> 
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+    </div>
+  </section>
+  <footer>
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-sm-12 col-md-8 position-relative">
+            <input type="text" class="inputSubscribe" placeholder="Enter your email to subscribe...">
+            <input type="submit" class="submit">
+          </div>
+          <div class="col-sm-12 col-md-3 footerIcon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+          <div class="textFooter my-3">
+            <p>
+
+              Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
